@@ -1,0 +1,9 @@
+baseURL = 'https://albyp.github.io/'
+languageCode = 'en-us'
+title = 'Albyp Blog'
+theme = 'lugo'
+
+[params]
+  stylesheet = "/style.css"
+  indexarticles = 50
+  taglist = true

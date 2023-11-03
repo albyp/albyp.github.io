@@ -15,8 +15,8 @@ I often find myself going down tangents and losing my end-goal focus.
 
 I have a few projects in the pipeline that I am using to help develop my own skills.
 
-[b]Python[/b]
+**Python**
 - [Mine Life](https://github.com/albyp/mine-life) an idle simulator game built on PyGame
 
-[b]Web dev[/b]
+**Web dev**
 - [albyp.github.io](https://github.com/albyp/albyp.github.io) this blog...

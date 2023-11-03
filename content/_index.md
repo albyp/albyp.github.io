@@ -8,6 +8,10 @@ layout: single
 
 {{< artlist >}}
 
+## Or Browse by Category...
+
+{{< tagcloud >}}
+
 ## About this site
 
 Website generated using Hugo with [Lukesmithxyz LUGO](https://github.com/lukesmithxyz/lugo) theme.

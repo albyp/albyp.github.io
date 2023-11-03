@@ -169,12 +169,6 @@ button#clear-search:hover {
   color: #eee;
 }
 
-
-.matched-recipe {
-	font-size: x-large ;
-	display: list-item !important ;
-}
-
 .list-searched {
 	column-count: 1 !important ;
 	list-style: decimal ;
@@ -182,28 +176,15 @@ button#clear-search:hover {
 	margin: auto ;
 }
 
-.cryptocontainer {
-    display: flex ;
-    flex-wrap: wrap ;
-    justify-content: center ;
-}
-.cryptoinfo {
-    max-width: 350px ;
-    text-align: center ;
-    padding-left: 10px ;
-    padding-right: 10px ;
+.js-only { display: none ; }
+
+/* new */
+.content-wrapper {
 	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-}
-.cryptoinfo code {
-	font-size: small ;
-	overflow-wrap: break-word ;
-}
-.qr {
-    max-height: 150px; ;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	align-items: start;
 }
 
-.js-only { display: none ; }
+.text-content {
+	flex: 0 0 80%;
+	margin-right: 20px;
+}

@@ -1,7 +1,7 @@
 ---
-Title: "Hugo Blog Project"
+title: "Hugo Blog Project"
 date: 2023-11-03
-tags: ['story', 'management', 'webdev']
+tags: ['management', 'webdev']
 author: "Albyp"
 ---
 

@@ -1,6 +1,16 @@
+:root {
+	--bg: #383F51;
+	--fg: #DDDBF1;
+	--link_v: #3C4F76;
+	--heading: #D1BEB0;
+	--heading2: #BEAFA7;
+	--heading3: #BEAFA7; /* change this color */
+	--text: #AB9F9D;
+}
+
 body {
-	background: #151515 ;
-	color: navajowhite ;
+	background: var(--bg);
+	color: var(--fg);
 	max-width: 850px ;
 	margin: auto ;
 	padding: 0 16px ;
@@ -18,8 +28,9 @@ body {
 	border-radius: 5px;
 }
 
+/* Text styles */
 a {
-	color: gold ;
+	color: var(--text) ;
 	text-decoration: none ;
 }
 
@@ -47,14 +58,21 @@ a:hover {
 }
 
 h1 {
+  color: var(--heading1) ;
 	border-style: solid ;
-	border-width: 0px 0px 2px 0px ;
+  border-width: 0px 0px 0px 0px ;
 	text-align: center ;
+  text-decoration: none ;
 }
 
 h2 {
-	color: tomato ;
+	color: var(--heading2) ;
 	text-align: center ;
+  text-decoration: none ;
+}
+
+h3 {
+  color: var(--heading3) ;
 }
 
 footer {

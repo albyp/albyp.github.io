@@ -4,6 +4,6 @@ title = 'Albyp Blog'
 theme = 'lugo'
 
 [params]
-  stylesheet = "/style.css"
+  stylesheet = "/static/style.css"
   indexarticles = 50
   taglist = true
